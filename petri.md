@@ -1,6 +1,6 @@
 # Analiza Formalna Sieci Petriego: Przepływ Krwi i Cykl Glukozy
 
-Ten model sieci Petriego symuluje sprzężone procesy układu krążenia, wymiany gazowej oraz cyklu glukozowo-insulinowego. Analiza została przeprowadzona na podstawie macierzy strukturalnych, drzewa pokrycia, grafu osiągalności oraz niezmienników miejsc i przejść.
+Ten model sieci Petriego symuluje sprzężone procesy układu krążenia, wymiany gazowej oraz cyklu glukozowo-insulinowego. Analiza została przeprowadzona na podstawie macierzy strukturalnych oraz grafu osiągalności.
 
 ---
 
@@ -14,7 +14,7 @@ Model składa się z **19 miejsc (P1-P19)** oraz **17 przejść (T1-T17)** repre
 
 ### Rysunek Sieci
 
-# RYSUNEK!!!!
+![Model Sieci](siec.png)
 
 ### Własności Strukturalne określane na podstawie Grafu:
 
@@ -150,7 +150,7 @@ graph TD
     M10 -->|T14| M_11["M_11 = [P9:1, P11:1, P16:1, P15:0, P19:1] <br> ZAKLESZCZENIE (T16 wymaga P15)"]
 ```
 
-### Własności Behawioralne określane na podstawie Drzewa/Grafu:
+### Własności Behawioralne określane na podstawie Grafu:
 
 * **Sieć k-ograniczona / bezpieczna:** Sieć **nie jest** ograniczona ani bezpieczna. W gałęzi hiperglikemicznej (*M_12) miejsca *P15* oraz *P17* osiągają wartość nieograniczoną.
 * **Sieć zachowawcza:** **Nie jest** zachowawcza. Liczba tokenów wzrasta z 7 (w $M_0$) do 13 (w $M_5$), a następnie dąży do nieskończoności.
@@ -194,7 +194,7 @@ Poniższa tabela stanowi zbiorcze zestawienie wykazanych własności modelowaneg
 | **Strukturalne** | Sieć prosta | **NIE** | Skrzyżowania łuków w regulacji metabolicznej. |
 | **Strukturalne** | Blokada minimalna | **TAK** | Wykazano 6 minimalnych blokad (w tym krytyczną otwartą S4). |
 | **Strukturalne** | Pułapka minimalna | **TAK** | Wykazano 3 minimalne pułapki (gwarantujące niepustość gazów/komórek). |
-| **Behawioralne** | Sieć k-ograniczona | **NIE** | Miejsca P15 i P17 osiągają wartość nieogranioczoną w drzewie pokrycia. |
+| **Behawioralne** | Sieć k-ograniczona | **NIE** | Miejsca P15 i P17 osiągają wartość nieogranioczoną w grafie pokrycia. |
 | **Behawioralne** | Sieć bezpieczna | **NIE** | $M_0(P15) = 3$, co narusza warunek 1-ograniczoności. |
 | **Behawioralne** | Sieć zachowawcza | **NIE** | Łączny wektor sumy tokenów dynamicznie się zmienia ($M_0=7 \rightarrow M_5=13$). |
 | **Behawioralne** | Sieć żywa | **NIE** | Obecność martwych przejść po wejściu w stan hipoglikemicznego głodu. |
