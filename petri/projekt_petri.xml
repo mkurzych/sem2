@@ -1,0 +1,1412 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><pnml>
+    <net id="Net-One" type="P/T net">
+        <token id="Default" enabled="true" red="0" green="0" blue="0"/>
+        <place id="Alveoli CO2 (P19)">
+            <graphics>
+                <position x="345.0" y="345.0"/>
+            </graphics>
+            <name>
+                <value>Alveoli CO2 (P19)</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,1</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Alveoli O2 (P2)">
+            <graphics>
+                <position x="255.0" y="510.0"/>
+            </graphics>
+            <name>
+                <value>Alveoli O2 (P2)</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Aorta (P10)">
+            <graphics>
+                <position x="450.0" y="615.0"/>
+            </graphics>
+            <name>
+                <value>Aorta (P10)</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Atmosphere (P1)">
+            <graphics>
+                <position x="345.0" y="450.0"/>
+            </graphics>
+            <name>
+                <value>Atmosphere (P1)</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Blood Sugar Homeostatis (P13)">
+            <graphics>
+                <position x="990.0" y="495.0"/>
+            </graphics>
+            <name>
+                <value>Blood Sugar Homeostatis (P13)</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,1</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Cell Glucose Storage (P17)">
+            <graphics>
+                <position x="750.0" y="510.0"/>
+            </graphics>
+            <name>
+                <value>Cell Glucose Storage (P17)</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Deoxygenated Cells (P12)">
+            <graphics>
+                <position x="555.0" y="570.0"/>
+            </graphics>
+            <name>
+                <value>Deoxygenated Cells (P12)</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Energy storage (P18)">
+            <graphics>
+                <position x="615.0" y="255.0"/>
+            </graphics>
+            <name>
+                <value>Energy storage (P18)</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Hyperglycemia (P14)">
+            <graphics>
+                <position x="885.0" y="405.0"/>
+            </graphics>
+            <name>
+                <value>Hyperglycemia (P14)</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Hypoglycemia (P16)">
+            <graphics>
+                <position x="1140.0" y="495.0"/>
+            </graphics>
+            <name>
+                <value>Hypoglycemia (P16)</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Left Atrium (P7)">
+            <graphics>
+                <position x="150.0" y="465.0"/>
+            </graphics>
+            <name>
+                <value>Left Atrium (P7)</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Left Ventricle (P8)">
+            <graphics>
+                <position x="150.0" y="570.0"/>
+            </graphics>
+            <name>
+                <value>Left Ventricle (P8)</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Muscles (P15)">
+            <graphics>
+                <position x="960.0" y="615.0"/>
+            </graphics>
+            <name>
+                <value>Muscles (P15)</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,3</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Oxygenated Cells (P11)">
+            <graphics>
+                <position x="540.0" y="465.0"/>
+            </graphics>
+            <name>
+                <value>Oxygenated Cells (P11)</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,1</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Pulmonary Artery (P3)">
+            <graphics>
+                <position x="225.0" y="315.0"/>
+            </graphics>
+            <name>
+                <value>Pulmonary Artery (P3)</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Pulmonary Vein (P4)">
+            <graphics>
+                <position x="225.0" y="405.0"/>
+            </graphics>
+            <name>
+                <value>Pulmonary Vein (P4)</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Right Atrium (P5)">
+            <graphics>
+                <position x="150.0" y="135.0"/>
+            </graphics>
+            <name>
+                <value>Right Atrium (P5)</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Right Ventricle (P6)">
+            <graphics>
+                <position x="150.0" y="225.0"/>
+            </graphics>
+            <name>
+                <value>Right Ventricle (P6)</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Vena Cava (P9)">
+            <graphics>
+                <position x="450.0" y="150.0"/>
+            </graphics>
+            <name>
+                <value>Vena Cava (P9)</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,1</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <transition id="Alveolar Gas Exchange (T17)">
+            <graphics>
+                <position x="255.0" y="345.0"/>
+            </graphics>
+            <name>
+                <value>Alveolar Gas Exchange (T17)</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="Aortic Valve (T11)">
+            <graphics>
+                <position x="210.0" y="615.0"/>
+            </graphics>
+            <name>
+                <value>Aortic Valve (T11)</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="Cellular Respiration (T12)">
+            <graphics>
+                <position x="615.0" y="510.0"/>
+            </graphics>
+            <name>
+                <value>Cellular Respiration (T12)</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="Dietary Glucose Absorption (T13)">
+            <graphics>
+                <position x="975.0" y="435.0"/>
+            </graphics>
+            <name>
+                <value>Dietary Glucose Absorption (T13)</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="Erythropoiesis (T7)">
+            <graphics>
+                <position x="540.0" y="195.0"/>
+            </graphics>
+            <name>
+                <value>Erythropoiesis (T7)</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="Exercise (T14)">
+            <graphics>
+                <position x="1080.0" y="420.0"/>
+            </graphics>
+            <name>
+                <value>Exercise (T14)</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="Exhalation (T1)">
+            <graphics>
+                <position x="345.0" y="390.0"/>
+            </graphics>
+            <name>
+                <value>Exhalation (T1)</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="Glycogen Secretion (T16)">
+            <graphics>
+                <position x="1110.0" y="570.0"/>
+            </graphics>
+            <name>
+                <value>Glycogen Secretion (T16)</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="Hemolysis (T8)">
+            <graphics>
+                <position x="585.0" y="90.0"/>
+            </graphics>
+            <name>
+                <value>Hemolysis (T8)</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="Inhalation (T2)">
+            <graphics>
+                <position x="345.0" y="510.0"/>
+            </graphics>
+            <name>
+                <value>Inhalation (T2)</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="Insulin Secretion (T15)">
+            <graphics>
+                <position x="855.0" y="525.0"/>
+            </graphics>
+            <name>
+                <value>Insulin Secretion (T15)</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="Mitral Valve (T6)">
+            <graphics>
+                <position x="150.0" y="510.0"/>
+            </graphics>
+            <name>
+                <value>Mitral Valve (T6)</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="Pulmonary Valve (T4)">
+            <graphics>
+                <position x="150.0" y="270.0"/>
+            </graphics>
+            <name>
+                <value>Pulmonary Valve (T4)</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="Tissue Gas Exchange (T10)">
+            <graphics>
+                <position x="450.0" y="525.0"/>
+            </graphics>
+            <name>
+                <value>Tissue Gas Exchange (T10)</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="Tricuspid Valve (T3)">
+            <graphics>
+                <position x="150.0" y="180.0"/>
+            </graphics>
+            <name>
+                <value>Tricuspid Valve (T3)</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="Venous Return LA (T5)">
+            <graphics>
+                <position x="150.0" y="420.0"/>
+            </graphics>
+            <name>
+                <value>Venous Return LA (T5)</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="Venous Return RA (T9)">
+            <graphics>
+                <position x="300.0" y="135.0"/>
+            </graphics>
+            <name>
+                <value>Venous Return RA (T9)</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <arc id="Alveolar Gas Exchange (T2) to Alveoli CO2 (P0)" source="Alveolar Gas Exchange (T17)" target="Alveoli CO2 (P19)">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="281" y="357" curvePoint="false"/>
+            <arcpath id="001" x="342" y="357" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Alveolar Gas Exchange (T2) to Pulmonary Vein (P4)" source="Alveolar Gas Exchange (T17)" target="Pulmonary Vein (P4)">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="261" y="361" curvePoint="false"/>
+            <arcpath id="001" x="244" y="403" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Alveoli CO2 (P19) to Exhalation (T1)" source="Alveoli CO2 (P19)" target="Exhalation (T1)">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="356" y="371" curvePoint="false"/>
+            <arcpath id="001" x="356" y="396" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Alveoli O2 (P2) to Alveolar Gas Exchange (T2)" source="Alveoli O2 (P2)" target="Alveolar Gas Exchange (T17)">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="267" y="507" curvePoint="false"/>
+            <arcpath id="001" x="271" y="362" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Aorta (P10) to Tissue Gas Exchange (T10)" source="Aorta (P10)" target="Tissue Gas Exchange (T10)">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="461" y="612" curvePoint="false"/>
+            <arcpath id="001" x="461" y="541" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Aortic Valve (T11) to Aorta (P10)" source="Aortic Valve (T11)" target="Aorta (P10)">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="226" y="627" curvePoint="false"/>
+            <arcpath id="001" x="447" y="627" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Atmosphere (P1) to Inhalation (T2)" source="Atmosphere (P1)" target="Inhalation (T2)">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="357" y="476" curvePoint="false"/>
+            <arcpath id="001" x="357" y="507" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Blood Sugar Homeostatis (P13) to Dietary Glucose Absorption (T13)" source="Blood Sugar Homeostatis (P13)" target="Dietary Glucose Absorption (T13)">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="997" y="492" curvePoint="false"/>
+            <arcpath id="001" x="987" y="462" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Blood Sugar Homeostatis (P13) to Exercise (T14)" source="Blood Sugar Homeostatis (P13)" target="Exercise (T14)">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1013" y="497" curvePoint="false"/>
+            <arcpath id="001" x="1086" y="432" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Cell Glucose Storage (P17) to Cellular Respiration (T12)" source="Cell Glucose Storage (P17)" target="Cellular Respiration (T12)">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="747" y="522" curvePoint="false"/>
+            <arcpath id="001" x="641" y="522" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Cellular Respiration (T12) to Deoxygenated Cells (P12)" source="Cellular Respiration (T12)" target="Deoxygenated Cells (P12)">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="626" y="526" curvePoint="false"/>
+            <arcpath id="001" x="578" y="571" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Cellular Respiration (T12) to Energy storage (P18)" source="Cellular Respiration (T12)" target="Energy storage (P18)">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="631" y="517" curvePoint="false"/>
+            <arcpath id="001" x="626" y="281" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Deoxygenated Cells (P12) to Tissue Gas Exchange (T10)" source="Deoxygenated Cells (P12)" target="Tissue Gas Exchange (T10)">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="553" y="575" curvePoint="false"/>
+            <arcpath id="001" x="476" y="537" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Dietary Glucose Absorption (T13) to Hyperglycemia (P14)" source="Dietary Glucose Absorption (T13)" target="Hyperglycemia (P14)">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="981" y="447" curvePoint="false"/>
+            <arcpath id="001" x="911" y="422" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Energy storage (P18) to Erythropoiesis (T7)" source="Energy storage (P18)" target="Erythropoiesis (T7)">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="614" y="258" curvePoint="false"/>
+            <arcpath id="001" x="551" y="211" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Energy storage (P18) to Exhalation (T1)" source="Energy storage (P18)" target="Exhalation (T1)">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="613" y="274" curvePoint="false"/>
+            <arcpath id="001" x="371" y="402" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Energy storage (P18) to Hemolysis (T8)" source="Energy storage (P18)" target="Hemolysis (T8)">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="624" y="252" curvePoint="false"/>
+            <arcpath id="001" x="596" y="106" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Energy storage (P18) to Inhalation (T2)" source="Energy storage (P18)" target="Inhalation (T2)">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="616" y="277" curvePoint="false"/>
+            <arcpath id="001" x="361" y="522" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Erythropoiesis (T7) to Vena Cava (P9)" source="Erythropoiesis (T7)" target="Vena Cava (P9)">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="536" y="207" curvePoint="false"/>
+            <arcpath id="001" x="474" y="169" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Exercise (T14) to Hypoglycemia (P16)" source="Exercise (T14)" target="Hypoglycemia (P16)">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1096" y="432" curvePoint="false"/>
+            <arcpath id="001" x="1143" y="494" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Exhalation (T1) to Atmosphere (P1)" source="Exhalation (T1)" target="Atmosphere (P1)">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="356" y="406" curvePoint="false"/>
+            <arcpath id="001" x="356" y="447" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Glycogen Secretion (T16) to Blood Sugar Homeostatis (P13)" source="Glycogen Secretion (T16)" target="Blood Sugar Homeostatis (P13)">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1117" y="577" curvePoint="false"/>
+            <arcpath id="001" x="1014" y="515" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Hyperglycemia (P14) to Insulin Secretion (T15)" source="Hyperglycemia (P14)" target="Insulin Secretion (T15)">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="892" y="431" curvePoint="false"/>
+            <arcpath id="001" x="867" y="522" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Hypoglycemia (P16) to Glycogen Secretion (T16)" source="Hypoglycemia (P16)" target="Glycogen Secretion (T16)">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1145" y="520" curvePoint="false"/>
+            <arcpath id="001" x="1122" y="567" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Inhalation (T2) to Alveoli O2 (P2)" source="Inhalation (T2)" target="Alveoli O2 (P2)">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="351" y="522" curvePoint="false"/>
+            <arcpath id="001" x="281" y="522" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Insulin Secretion (T15) to Blood Sugar Homeostatis (P13)" source="Insulin Secretion (T15)" target="Blood Sugar Homeostatis (P13)">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="872" y="532" curvePoint="false"/>
+            <arcpath id="001" x="987" y="509" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Insulin Secretion (T15) to Cell Glucose Storage (P17)" source="Insulin Secretion (T15)" target="Cell Glucose Storage (P17)">
+            <graphics/>
+            <inscription>
+                <value>Default,6</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="861" y="537" curvePoint="false"/>
+            <arcpath id="001" x="776" y="524" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Insulin Secretion (T15) to Muscles (P15)" source="Insulin Secretion (T15)" target="Muscles (P15)">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="871" y="542" curvePoint="false"/>
+            <arcpath id="001" x="960" y="617" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Left Atrium (P7) to Mitral Valve (T6)" source="Left Atrium (P7)" target="Mitral Valve (T6)">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="161" y="491" curvePoint="false"/>
+            <arcpath id="001" x="161" y="516" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Left Ventricle (P8) to Aortic Valve (T11)" source="Left Ventricle (P8)" target="Aortic Valve (T11)">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="173" y="591" curvePoint="false"/>
+            <arcpath id="001" x="216" y="627" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Mitral Valve (T6) to Left Ventricle (P8)" source="Mitral Valve (T6)" target="Left Ventricle (P8)">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="161" y="526" curvePoint="false"/>
+            <arcpath id="001" x="161" y="567" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Muscles (P15) to Glycogen Secretion (T16)" source="Muscles (P15)" target="Glycogen Secretion (T16)">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="986" y="623" curvePoint="false"/>
+            <arcpath id="001" x="1116" y="587" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Oxygenated Cells (P11) to Cellular Respiration (T12)" source="Oxygenated Cells (P11)" target="Cellular Respiration (T12)">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="565" y="484" curvePoint="false"/>
+            <arcpath id="001" x="621" y="516" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Pulmonary Artery (P3) to Alveolar Gas Exchange (T2)" source="Pulmonary Artery (P3)" target="Alveolar Gas Exchange (T17)">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="248" y="336" curvePoint="false"/>
+            <arcpath id="001" x="266" y="351" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Pulmonary Valve (T4) to Pulmonary Artery (P3)" source="Pulmonary Valve (T4)" target="Pulmonary Artery (P3)">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="176" y="282" curvePoint="false"/>
+            <arcpath id="001" x="224" y="318" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Pulmonary Vein (P4) to Venous Return LA (T5)" source="Pulmonary Vein (P4)" target="Venous Return LA (T5)">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="222" y="420" curvePoint="false"/>
+            <arcpath id="001" x="176" y="432" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Right Atrium (P5) to Tricuspid Valve (T3)" source="Right Atrium (P5)" target="Tricuspid Valve (T3)">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="161" y="161" curvePoint="false"/>
+            <arcpath id="001" x="161" y="186" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Right Ventricle (P6) to Pulmonary Valve (T4)" source="Right Ventricle (P6)" target="Pulmonary Valve (T4)">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="161" y="251" curvePoint="false"/>
+            <arcpath id="001" x="161" y="276" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Tissue Gas Exchange (T10) to Oxygenated Cells (P11)" source="Tissue Gas Exchange (T10)" target="Oxygenated Cells (P11)">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="466" y="532" curvePoint="false"/>
+            <arcpath id="001" x="539" y="484" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Tissue Gas Exchange (T10) to Vena Cava (P9)" source="Tissue Gas Exchange (T10)" target="Vena Cava (P9)">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="456" y="531" curvePoint="false"/>
+            <arcpath id="001" x="461" y="176" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Tricuspid Valve (T3) to Right Ventricle (P6)" source="Tricuspid Valve (T3)" target="Right Ventricle (P6)">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="161" y="196" curvePoint="false"/>
+            <arcpath id="001" x="161" y="222" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Vena Cava (P9) to Hemolysis (T8)" source="Vena Cava (P9)" target="Hemolysis (T8)">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="475" y="155" curvePoint="false"/>
+            <arcpath id="001" x="581" y="102" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Vena Cava (P9) to Venous Return RA (T9)" source="Vena Cava (P9)" target="Venous Return RA (T9)">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="447" y="160" curvePoint="false"/>
+            <arcpath id="001" x="316" y="147" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Venous Return LA (T5) to Left Atrium (P7)" source="Venous Return LA (T5)" target="Left Atrium (P7)">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="161" y="436" curvePoint="false"/>
+            <arcpath id="001" x="161" y="462" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Venous Return RA (T9) to Right Atrium (P5)" source="Venous Return RA (T9)" target="Right Atrium (P5)">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="306" y="147" curvePoint="false"/>
+            <arcpath id="001" x="176" y="147" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+    </net>
+</pnml>
